@@ -26,7 +26,7 @@ public class Referee implements Piece{
 		lastPlayedMove = new Move();
 		int NumberofMoves = 0;
 		int dimension = Integer.valueOf(args[0]);
-		int boardEmptyPieces=(dimension)*(9*dimension-3);
+		int boardEmptyPieces = (dimension) * (9 * dimension - 3);
 		System.out.println("Referee started !");
 		try{
 			P1 = (Player)(Class.forName(args[1]).newInstance());
